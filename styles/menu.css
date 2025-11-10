@@ -1,4 +1,6 @@
 .NavBG {
     background-image: url(../assets/bgtexture.jpg);
-    background-position: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
