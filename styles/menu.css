@@ -30,7 +30,11 @@ body {
 }
 .beefSize{
     width: 600px;
+    max-width: 100%;
+    height: auto;
 }
 .shrimpSize{
     width: 600px;
+    max-width: 100%;
+    height: auto;
 }
