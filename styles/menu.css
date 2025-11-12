@@ -11,7 +11,7 @@ body {
     font-family: Montauk-Regular;
     src: url("../fonts/Montauk-Bold.otf");
 }
-.NavColor{ 
+.navFont{ 
     color: #5F002B;
     font-size: 30px;
     font-family: Montauk-Bold;
@@ -27,4 +27,10 @@ body {
 }
 .menuBG{
     background-color: #FFFFFF;
+}
+.beefSize{
+    width: 600px;
+}
+.shrimpSize{
+    width: 600px;
 }
