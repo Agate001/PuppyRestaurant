@@ -1,15 +1,30 @@
-@font-face {
+body {
+    background-image: url(../assets/bgtexture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face{
     font-family: Montauk-Bold;
     src: url("../fonts/Montauk-Bold.otf");
 }
-.NavBG {
-    background-image: url(../assets/bgtexture.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+@font-face {
+    font-family: Montauk-Regular;
+    src: url("../fonts/Montauk-Bold.otf");
 }
-.NavColor { 
+.NavColor{ 
     color: #5F002B;
     font-size: 30px;
     font-family: Montauk-Bold;
+}
+.logoSpacing{
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.menuFont{
+    color: #5F002B;
+    font-size: 60px;
+    font-family: Montauk-Bold;
+}
+.menuBG{
+    background-color: #FFFFFF;
 }
