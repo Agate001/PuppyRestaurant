@@ -10,3 +10,15 @@ body{
 .tc-biege{
 color: #5F002B;
 }
+.fontsize{
+    font-size: 9px;
+}
+.imgM{
+max-width: 100%;
+height: auto;
+}
+@media (min-width: 1200px)
+{.fontsize{
+    font-size:  11px;;
+}
+}
