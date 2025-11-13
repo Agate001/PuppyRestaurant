@@ -11,74 +11,171 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="logoSpacing">
-            <img src="./assets/MuzzlesLogo.png" alt="Hotel Logo">
-        </div>
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav NavSpacing">
-                    <li class="nav-item">
-                        <a class="nav-link navFont" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navFont" href="#">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navFont" href="#">Catering</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navFont" href="#">Photo</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <div class="container">
-        <div class="row mb-5">
-            <div class="col menuBG">
-                <h1 class="d-flex justify-content-center mb-5 bg-white tc-biege menuFont">Our Menu</h1>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="assets/MuzzlesLogo.png" alt="MuzzlesLogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-end">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link navFont" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navFont" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navFont" href="#">Catering</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navFont">Photo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row md">
+            <div class="col">
+                <h1 class="d-flex justify-content-center mb-5 bg-white menuFont">Our Menu</h1>
             </div>
         </div>
-        <div class="row mb-5">
-            <div class="col">
-                <img class="beefSize" src="./assets/menubeef.jpg" alt="menu beef">
+        <div class="row gap-3 pb-3">
+            <div class="col-md bg-white px-0">
+                <img class="menuISize" src="./assets/menubeef.jpg" alt="menu beef">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="menuFont2">Sandwiches</h1>
+                            <p class="menuFont4">All sandwiches come with an side of crispy fries</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <h1 class="menuFont3">Sizzling Steak Sandwiach</h1>
+                            <p class="menuFont4">Open faced steak sandwich with grilled belle peppers and fried onions.</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="priceColor text-end pe-3">$15.99</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <h1 class="menuFont3">Tenderloin Sliders</h1>
+                            <p class="menuFont4">Three beef tenderloin sliders with horseradish cream and blackberry bbq.</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="priceColor text-end pe-3">$13.99</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <h1 class="menuFont3">Classic Chicken Panini</h1>
+                            <p class="menuFont4">Grilled chicken with Monterey jack, romaine lettuce, tomato, and cilantro.</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="priceColor text-end pe-3">$10.99</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <h1 class="menuFont3">Smoked Turkey Club</h1>
+                            <p class="menuFont4">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="priceColor text-end pe-3">$8.99</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <h1 class="menuFont3">Tuna Sandwich</h1>
+                            <p class="menuFont4 pBottom">Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="priceColor text-end pe-3">$6.99</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="col-md bg-white px-0">
+                <img class="menuISize" src="./assets/menuseafood.jpg" alt="menu seafood">
+                <div class="col">
+                    <h1 class="menuFont2">Seafood</h1>
+                    <p class="menuFont4">All seafood comes with a side of rice pilaf and grilled vegetables.</p>
+                    <h1 class="menuFont3">Honey Shrimp Skewers</h1>
+                    <p class="menuFont4">Ten honey glazed shrimps grilled with sesame seeds and rosemary.</p>
+                    <h1 class="menuFont3">Grilled Salmon</h1>
+                    <p class="menuFont4">Salmon grilled in a lime butter sauce.</p>
+                    <h1 class="menuFont3">Grilled Tilapia</h1>
+                    <p class="menuFont4">A whole grilled tilapia cooked with smoked paprika.</p>
+                    <h1 class="menuFont3">Parmesan Fish Sticks</h1>
+                    <p class="menuFont4 pBottom2">Sliced salmon in parmesan breading served with lemon dill tartar
+                        sauce.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row gap-3">
+            <div class="col-md bg-white px-0">
+                <div class="col">
+                    <img class="menuISize" src="./assets/menumeat.jpg" alt="menu meat">
+                    <h1 class="menuFont2">On the grill</h1>
+                    <p class="menuFont4">Served with corn, cheddar biscuits, and your choice of coleslaw or potato
+                        salad.</p>
+                    <h1 class="menuFont3">Baby Back - Full Rack</h1>
+                    <p class="menuFont4">A full rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                    <h1 class="menuFont3">Baby Back - Half Rack</h1>
+                    <p class="menuFont4">A half rack of pork babyback ribs grilled and glazed with blackberry bbq.</p>
+                    <h1 class="menuFont3">Boneless Ribeye</h1>
+                    <p class="menuFont4">A three inch thick boneless ribeye grilled in a rosemary rub and butter</p>
+                    <h1 class="menuFont3">Smoked Turkey Club</h1>
+                    <p class="menuFont4">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p>
+                    <h1 class="menuFont3">Tuna Sandwich</h1>
+                    <p class="menuFont4 pBottom">Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on
+                        toast.</p>
+                </div>
+            </div>
+            <div class="col-md bg-white px-0">
+                <div class="col">
+                    <img class="menuISize" src="./assets/menudesserts.jpg" alt="menu desserts">
+                    <h1 class="menuFont2">Desserts</h1>
+                    <p class="menuFont4">A shot of esspresso can be added to any dessert for an additional $2.</p>
+                    <h1 class="menuFont3">Double Walnut Brownies</h1>
+                    <p class="menuFont4">Two brownies with a walnut crust, ice cream and chocolate sauce.</p>
+                    <h1 class="menuFont3">Cheese Cake with Chocolate Sauce</h1>
+                    <p class="menuFont4">Cheesecake with ice cream, chocolate shavings and chocolate sauce.</p>
+                    <h1 class="menuFont3">Tripple Chocolate Brownie</h1>
+                    <p class="menuFont4">A tripple chocolate brownie served with vanilla ice cream and walnuts.</p>
+                    <h1 class="menuFont3">House Made Shaved Gelato and Cookies</h1>
+                    <p class="menuFont4">Your choice of shaved gelato with whole cookies. Options change daily.</p>
+                    <h1 class="menuFont3">Grilled Peaches and Ice Cream</h1>
+                    <p class="menuFont4 pBottom">Grilled Peaches and Ice Cream Grilled peaches in cinnamon and brown
+                        sugar glaze with ice cream.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col">
-                <img class="shrimpSize" src="./assets/menuseafood.jpg" alt="menu seafood">
+                <p class="pTop footfont d-flex justify-content-sm-start justify-content-center">1357 Mutt Street,
+                    Rottweiler CA. 12345"</p>
+            </div>
+            <div class="col-md d-flex justify-content-sm-end justify-content-center">
+                <img class="imgfoot pTop" src="assets/CompanyLogo.png" alt="company logo">
+            </div>
+            <div class="row">
+                <div class="col-md d-flex justify-content-sm-start justify-content-center">
+                    <p class="footfont">Phone: 123-456-7890</p>
+                </div>
+                <div class="col-md d-flex justify-content-sm-end justify-content-center">
+                    <p class="footfont">Copyright © Muzzles Restaurant</p>
+                </div>
             </div>
         </div>
     </div>
-
-    <h1>Sandwiches</h1>
-    <p>All sandwiches come with an side of crispy fries</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>
