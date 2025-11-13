@@ -144,7 +144,7 @@ height: auto;
     gap: 15px;
 }
 
-    .img-row {
-        display: flex;
-    }
+.img-row {
+display: flex;
+}
 }
