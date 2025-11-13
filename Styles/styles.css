@@ -148,3 +148,6 @@ height: auto;
 display: flex;
 }
 }
+.imgSize{
+    width: 50%;
+}
