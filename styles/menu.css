@@ -43,18 +43,14 @@ body {
     margin-right: 20px;
     color: #5F002B;
     font-family: Montauk-Light;
-    border-bottom: 2px solid #5F002B;
+}
+.menuBorder{
+    border-bottom: 1px solid #5F002B;
 }
 .menuFont4{
     margin-left: 40px;
     color: #5F002B;
     font-family: Montauk-Light;
-}
-.pBottom{
-    padding-bottom: 25px;
-}
-.pBottom2{
-    padding-bottom: 123px;
 }
 .pTop{
     padding-top: 100px;
