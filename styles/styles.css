@@ -143,8 +143,9 @@ height: auto;
     grid-template-rows: auto;
     gap: 15px;
 }
-
-.img-row {
-display: flex;
 }
+@media (min-width: 450px) {
+    .img-row {
+        display: flex;
+    }
 }
