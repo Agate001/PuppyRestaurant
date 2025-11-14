@@ -1,3 +1,4 @@
+Gavins Peer Review: Everything looks good there are a couple is issues throughout your project though such as the the footer text stacking werid on the about page and the wrong font and the page bar has the wrong font too,  there is no split between the catering service text and the catering image on the left along with some small spacing in between the 3 images at the bottom of the the catering page and the footer logo is actually streetched for all of the footers, and the main index nav bar does not match the rest of the other pages nav bars.
 ## Jacob's Review
 
 #### Desktop
