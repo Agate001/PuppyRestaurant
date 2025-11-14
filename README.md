@@ -76,3 +76,5 @@ Try to get the navbar toggle to not move when the nav menu expands
 ##### Catering Page
 - You can remove one of the starting images
 - Text column is wider than the rest of the page
+
+Pier Review:
