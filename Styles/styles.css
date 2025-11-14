@@ -102,7 +102,10 @@ p {
 .tc-biege{
     color: #5F002B;
     font-family: Montauk-Regular;
-    
+}
+.tc-biege2{
+    color: #5F002B;
+    font-family: Fugaz-One;
 }
 .htc-biege{
     color: #5F002B;
@@ -113,10 +116,10 @@ p {
     font-size: 10px;
 }
 .imgPad{
-    margin-right: 350px;
+    margin-right: 125px;
 }
 .imgPad2{
-    margin-left: 350px;
+    margin-left: 100px;
 }
 .imgM{
     width: 100%;
@@ -124,20 +127,20 @@ p {
     object-fit: cover;
 }
 .imgfoot{
-    width: 20%;
+    width: 12%;
 }
 .footfont{
     font-size: 14px;
     font-family:Montauk-Light;
 }
 .footPad{
-    margin-left: 350px;
+    margin-left: 100px;
 }
 .footPad2{
-    margin-right: 315px;
+    margin-right: 90px;
 }
 .footPad3{
-    margin-right: 350px;
+    margin-right: 115px;
 }
 .imgG{
     display: grid;
@@ -231,6 +234,9 @@ font-size: 50px;
     border: 10px solid white;
 }
 }
-.homeFix{
-    margin-top: 12px;
+.logoPad{
+    padding-left: 160px;
+}
+.navPad{
+    padding-right: 100px;
 }
