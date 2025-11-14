@@ -207,6 +207,9 @@ p {
     } 
 }
 @media (min-width: 1900px){
+    .imgfoot{
+    width: 20%;
+}
     .bodycon{
     margin: 0 0;
     background-image: url(/assets/bgtexture.jpg);
