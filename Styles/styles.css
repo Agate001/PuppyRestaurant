@@ -199,7 +199,12 @@ p {
 .fontsize{
     font-size:  13px;
 }
-
+.imgPad2{
+    margin-left: 0px;
+}
+.Homeimg{
+        width: 425px;
+    }
 .imgG{
     display: grid;
     grid-template-columns: repeat(1,1fr);
