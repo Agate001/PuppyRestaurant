@@ -134,13 +134,16 @@ p {
     font-family:Montauk-Light;
 }
 .footPad{
-    margin-left: 100px;
+    padding-left: 110px;
 }
 .footPad2{
-    margin-right: 90px;
+    padding-right: 130px;
 }
 .footPad3{
-    margin-right: 115px;
+    padding-right: 127px;
+}
+.footer-margins {
+    margin: 0 125px;
 }
 .imgG{
     display: grid;
