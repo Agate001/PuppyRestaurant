@@ -183,6 +183,10 @@ p {
     grid-template-rows: auto;
     gap: 15px;
 }
+.imgPad2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .mid-card-h1 {
     font-size: 26px;
