@@ -158,6 +158,12 @@ p {
 .photoborder{
     border: 5px solid white;
 }
+.logoPad{
+    padding-left: 160px;
+}
+.navPad{
+    padding-right: 100px;
+}
 /*MEDIA STARTS HERE*/
 @media (min-width: 1200px)
 {.fontsize{
@@ -165,6 +171,12 @@ p {
 }
 }
 @media (max-width: 768px){
+    .Homeimg{
+        width: 768px;
+    }
+    .logoPad{
+        padding-left: 0px;
+    }
     .imgG{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -246,10 +258,4 @@ font-size: 50px;
 .photoborder{
     border: 10px solid white;
 }
-}
-.logoPad{
-    padding-left: 160px;
-}
-.navPad{
-    padding-right: 100px;
 }
